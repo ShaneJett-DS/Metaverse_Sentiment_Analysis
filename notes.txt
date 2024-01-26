@@ -1,0 +1,68 @@
+NLP / Sentiment Analysis Notes
+
+
+
+Sentiment Analysis Goals:
+
+1)
+Analyze the overall sentiment distribution of the comments. Are they mostly positive, negative, or neutral? Visualize this information using charts like histograms or pie charts.
+Temporal Analysis:
+
+2)
+Explore how sentiment changes over time. Are there specific periods when sentiment is more positive or negative? This can be useful for understanding audience reactions to different stages of the video.
+Top Positive/Negative Comments:
+
+3)
+Identify and showcase the top positive and negative comments. This can give insights into what resonates well with the audience or areas that may need improvement.
+Keyword Analysis:
+
+4)
+Analyze the most common positive and negative keywords mentioned in the comments. This can help in understanding the topics that drive positive or negative sentiments.
+Sentiment Trends by Topics:
+
+5)
+If the video covers multiple topics, analyze sentiment for each topic separately. This way, you can understand which aspects of the video are well-received or criticized.
+User Engagement vs. Sentiment:
+
+6)
+Explore whether there's a correlation between user engagement metrics (likes, shares, views) and sentiment. Do videos with higher positive sentiment receive more engagement?
+Word Clouds:
+
+7)
+Create word clouds to visualize the most frequently used words in positive and negative comments. This can provide a quick overview of the key themes.
+Comparison with Similar Videos:
+
+8)
+If applicable, compare the sentiment of comments on your video with comments on similar videos. This can help identify unique aspects that contribute to audience sentiment.
+Machine Learning Model:
+
+9)
+Build a machine learning model to predict sentiment. Train a model on a labeled dataset and evaluate its performance. This adds a predictive aspect to your analysis.
+Dashboard or Report:
+
+10)
+Compile your findings into a dashboard or report. This could include visualizations, key insights, and recommendations based on your analysis.
+Remember to document your methodology, challenges faced, and any assumptions made during the project. A well-documented and visually appealing presentation of your sentiment analysis results will be valuable for your data science portfolio.
+
+
+
+
+### Tokenizer Pre-Processing ###
+
+1)
+Text Segmentation: It divides continuous text into individual units, making it easier to analyze and process.
+
+2)
+Vocabulary Creation: Tokenization is a key step in building a vocabulary for a language model. Each unique token is added to the model's vocabulary, and the model learns to represent words or subwords as vectors during training.
+
+3)
+Normalization: It helps in standardizing the text by breaking it into consistent units, reducing variability in word representation.
+
+4)
+Feature Extraction: Tokens become the features used by models for various NLP tasks like text classification, language modeling, and machine translation.
+
+5)
+Efficient Representation: Tokenization enables the efficient representation of text data in a format that can be easily fed into machine learning algorithms.
+
+6)
+Different tokenization strategies exist, such as word-level tokenization, subword tokenization, and character-level tokenization, each with its own advantages and use cases. The choice of tokenization strategy depends on the specific requirements of the NLP task and the characteristics of the language being processed.
